@@ -1,0 +1,141 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.menu{
+    width: 1000px;
+    height: 100%;
+    float: left;
+}
+.main{
+    top: 30px;
+    float: right;
+    position: relative;
+}
+.main>li{
+    float: left;
+    text-align: center;
+    background-color: brown;
+}
+.main > li > a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main>li:hover{
+    background: beige;
+}
+.sub{
+    width: 180px;
+    z-index: 1;
+    display: none;
+    position: relative;
+}
+.sub > li{
+    width: 180px;
+    background: hotpink;
+}
+.sub > li:hover{
+    
+    background: red;
+}
+.sub>li>a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.imgslide{
+    width: 100%;
+    height: 300px;
+}
+.imgslide img{
+    width: 1200px;
+    height: 300px;
+}
+.imgslide>a{
+    display: block;
+    position: absolute;
+}
+.imgtext{
+    width: 500px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    left: 350px;
+    position: absolute;
+    top: 125px;
+}
+.contents{
+    width: 100%;
+    height: 200px;
+}
+.c1{
+    width: 400px;
+    height: 100%;
+    background: blueviolet;
+    float: left;
+}
+.c2{
+    width: 400px;
+    height: 100%;
+    float: left;
+    background: violet;
+}
+.c3{
+    width: 400px;
+    height: 100%;
+    float: left;
+    background: brown;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+}
+.fl{
+    width: 100px;
+    height: 100%;
+    float: left;
+    background:lightgreen
+}
+.copyright{
+    width: 1000px;
+    height: 100%;
+    float: left;
+    background: salmon;
+}
+.sns{
+    width: 100px;
+    height: 100%;
+    float: left;
+    background: red;
+}
