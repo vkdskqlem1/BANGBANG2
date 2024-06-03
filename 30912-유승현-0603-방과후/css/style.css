@@ -1,0 +1,50 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+}
+.logo{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.menu{
+    width: 1000px;
+    height: 100%;
+    float: left;
+}
+.imgslide{
+    width: 1200px;
+    height: 300px;
+}
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+.c1{
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+.c2{
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+.c3{
+    width: 400px;
+    height: 100%;
+    float: left;
+}
